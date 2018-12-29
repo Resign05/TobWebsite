@@ -8,7 +8,7 @@
   position: fixed;
   width: 200px;
   height: 100%;
-  background: #3366cc;
+  background: #a5a5a5;
   left:-200px;
   transition: all 300ms linear;
 }
@@ -33,7 +33,7 @@
 }
 
 #hoverable:hover {
-  background: #4477dd;
+  background: #828282;
   transition: all 200ms linear;
 }
 
@@ -47,7 +47,7 @@
   display: block;
   width: 30px;
   height: 5px;
-  background: #3366cc;
+  background: #a5a5a5;
   margin: 3px 0px;
 }
 
@@ -71,5 +71,5 @@ header {
 }
 
 #open {
-  background: #4477dd;
+  background: #828282;
 }
