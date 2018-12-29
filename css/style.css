@@ -71,8 +71,13 @@ a {
   border-bottom: 1px solid rgba(50, 50, 50, 0.7);
 }
 
-p {
-  font-family: "Times New Roman", Times, sans-serif;
+#content {
+  font-family: sans-serif;
+  padding-left: 20px;
+  transition: all 300ms linear;
+}
+#content.active {
+  padding-left: 220px;
 }
 
 header {
